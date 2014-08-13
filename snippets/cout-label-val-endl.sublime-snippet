@@ -1,0 +1,8 @@
+<snippet>
+    <description>cout labelled value</description>
+    <content><![CDATA[
+${2:std::}cout << "${1:value}: " << ($1) << ${2}endl;
+]]> </content>
+    <tabTrigger>vout</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
