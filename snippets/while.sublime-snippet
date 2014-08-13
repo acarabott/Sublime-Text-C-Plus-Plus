@@ -1,8 +1,10 @@
 <snippet>
     <description>While loop</description>
-    <content><![CDATA[while(${1:/* condition */}) {
+    <content><![CDATA[
+while(${1:/* condition */}) {
     ${2:/* code */}
-}]]></content>
+}
+]]> </content>
     <tabTrigger>while</tabTrigger>
-    <scope>source.c, source.objc, source.c++, source.objc++, source.c++11</scope>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
 </snippet>

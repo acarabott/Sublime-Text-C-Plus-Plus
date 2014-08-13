@@ -2,8 +2,7 @@
     <description>typdef std::vector size</description>
     <content><![CDATA[
 typedef ${4:std::}vector<${1:char}>::size_type ${3:vec_${2:$1}_sz};
-]]>
-    </content>
+]]> </content>
     <tabTrigger>vecsz</tabTrigger>
     <scope>source.c++, source.objc++</scope>
 </snippet>

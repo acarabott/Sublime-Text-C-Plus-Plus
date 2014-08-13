@@ -2,8 +2,7 @@
 	<description>std::vector</description>
     <content><![CDATA[
 ${3:std::}vector<${1:char}> ${2:vec}$0;
-]]>
-    </content>
+]]> </content>
     <tabTrigger>vec</tabTrigger>
     <scope>source.c++, source.objc++</scope>
 </snippet>
