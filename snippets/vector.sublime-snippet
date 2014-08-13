@@ -3,6 +3,6 @@
     <content><![CDATA[
 ${3:std::}vector<${1:char}> ${2:vec}$0;
 ]]> </content>
-    <tabTrigger>vec</tabTrigger>
+    <tabTrigger>vector</tabTrigger>
     <scope>source.c++, source.objc++</scope>
 </snippet>
