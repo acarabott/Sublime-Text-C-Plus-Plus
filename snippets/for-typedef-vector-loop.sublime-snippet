@@ -1,0 +1,11 @@
+<snippet>
+    <description>typedef vector for loop</description>
+    <content><![CDATA[
+${4:typedef ${3:std::}vector<$1>::${2:const_}iterator ${5:$2$1_vec_it};}
+for ($5 ${7:it} = ${6:vec}.begin(); $7 != $6.end(); ++$7) {
+    $0
+}
+]]></content>
+    <tabTrigger>forvt</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

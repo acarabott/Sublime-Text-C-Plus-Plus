@@ -1,9 +1,8 @@
 <snippet>
-    <description>Vector for loop</description>
+    <description>vector for loop</description>
     <content><![CDATA[
-${3:typedef ${2:std::}vector<$1>::iterator ${4:$1_vec_it};}
-for ($4 ${6:i} = $5.begin(); ${6:i} != $5.end(); ++${6:i}) {
-    $0
+for (${6:${5:std::}vector<${1:type}>::${2:const_}iterator} ${3:it} = ${4:vec}.begin(); $3 != $4.end(); ++$3) {
+    ${0:/* code */}
 }
 ]]></content>
     <tabTrigger>forv</tabTrigger>
