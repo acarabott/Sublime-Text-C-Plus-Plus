@@ -1,0 +1,8 @@
+<snippet>
+	<description>Using statement</description>
+    <content><![CDATA[
+using ${1:std}::${0:cout};
+]]> </content>
+    <tabTrigger>using</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
